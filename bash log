@@ -1,0 +1,1372 @@
+jarvisjivan@jarvisjivan-HP-Laptop-15g-br1xx:~/JdeRobot$ cmake -Dbuild-default=OFF -Dbuild_introrob=ON .
+version:5.4.0
+/home/jarvisjivan/JdeRobot/src/libs/jderobotutil
+/home/jarvisjivan/JdeRobot/src/libs/colorspaces
+/home/jarvisjivan/JdeRobot/src/libs/colorspacesmm
+/home/jarvisjivan/JdeRobot/src/libs/easyiceconfig
+/home/jarvisjivan/JdeRobot/src/libs/parallelIce
+/home/jarvisjivan/JdeRobot/src/libs/depthLib
+/home/jarvisjivan/JdeRobot/src/libs/geometry
+/home/jarvisjivan/JdeRobot/src/libs/logger
+/home/jarvisjivan/JdeRobot/src/libs/ns
+/home/jarvisjivan/JdeRobot/src/libs/progeo
+/home/jarvisjivan/JdeRobot/src/libs/pioneer
+/home/jarvisjivan/JdeRobot/src/libs/fuzzylib
+-- ALUT found at /usr/lib/x86_64-linux-gnu/libalut.so
+-- ardronelib FOUND. Version: autonomy-gps
+-- ardronelib libraries: pc_ardrone;pc_ardrone_notool;sdk;vlib;avcodec;avdevice;avfilter;avformat;avutil;swscale
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   chrono
+--   date_time
+--   atomic
+   -- CUDA not found!!
+*** Fireware ok
+*** GAZEBO LIBRARIES FOUND: /usr/include/gazebo-7;/usr/include/sdformat-4.4;/usr/include/ignition/math2 - /usr/include/OGRE
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+*** Goocanvasmm LIBRARIES FOUND
+*** ICE ok
+LIBFREENECT NOT FOUND
+*** libusb FOUND
+Libxml++ libraries found at 
+*** LIBXML2 ok
+CMake Warning at Deps/mmal/CMakeLists.txt:9 (FIND_PACKAGE):
+  By not providing "FindMMAL.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "MMAL", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "MMAL" with any of
+  the following names:
+
+    MMALConfig.cmake
+    mmal-config.cmake
+
+  Add the installation prefix of "MMAL" to CMAKE_PREFIX_PATH or set
+  "MMAL_DIR" to a directory containing one of the above files.  If "MMAL"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  Deps/LoadJderobotDependencies.cmake:12 (include)
+  CMakeLists.txt:162 (include)
+
+
+*** Nite not found
+NITE2 library not found
+--  NodeJS found
+*** OGRe LIBRARIES FOUND: /usr/include/OGRE
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") found components:  core flann imgproc ml features2d video objdetect 
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") found components:  highgui calib3d 
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") found components:  bgsegm 
+***OpenCV Version: 3.3.1
+***OpenCV CORE LIBS: opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_features2d;opencv_video;opencv_objdetect
+***OpenCV GUI LIBS: opencv_highgui;opencv_calib3d
+***OpenCV EXTRA LIBS: opencv_bgsegm
+OpenGL libraries found at /usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
+-- OpenNi found at /usr/lib/libOpenNI.so
+-- OpenNI2 found at /opt/jderobot/include/openni2
+-- Using OpenSSL 1.0.2g
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- Could NOT find PCL_APPS (missing:  PCL_APPS_LIBRARY) 
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.5.2", minimum required is "3") 
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+/usr/lib/python3.5:/opt/jderobot/lib/python3.5
+/usr/lib/python2.7:/opt/jderobot/lib/python2.7
+-- kurt
+-- Could NOT find PY_kurt (missing:  PY_KURT) 
+-- parse
+-- Could NOT find PY_parse (missing:  PY_PARSE) 
+-- termcolor
+-- Could NOT find PY_termcolor (missing:  PY_TERMCOLOR) 
+-- *** QFI_INCLUDE_DIR found
+-- *** QFI_LIBRARY found
+*** QT LIBRARIES Found Qt5::Widgets;Qt5::Core;Qt5::Gui;Qt5::Svg;Qt5::OpenGL
+*** ROS LIBRARIES FOUND : /opt/ros/kinetic/include;/usr/include;/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-- Using CATKIN_DEVEL_PREFIX: /home/jarvisjivan/JdeRobot/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Skip enable_testing() when building binary package
+-- Using CATKIN_TEST_RESULTS_DIR: /home/jarvisjivan/JdeRobot/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Could NOT find PythonInterp (missing:  PYTHON_EXECUTABLE) (found version "2.7.12")
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+*** LIBTINYXML ok
+***VTK FOUND 6.2
+*** Xerces ok
+/usr/include/libxml2
+***YAML-CPP FOUND: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/../../../../include
+youtube-dl found at /usr/bin/youtube-dl
+-- Building ICE Interfaces for:
+-- 	CPP
+-- 	Python
+-- Processing library config_cpp
+-- Processing library ns
+-- Processing library jderobotutil
+-- Processing library comm_cpp
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:415 (message):
+  catkin_package() include dir
+  '/home/jarvisjivan/JdeRobot/src/libs/comm_cpp/include' should be placed in
+  the devel space instead of the build space
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  src/libs/comm_cpp/CMakeLists.txt:15 (catkin_package)
+
+
+-- Processing library easyiceconfig_py
+-- Processing library jderobotViewer
+-- Processing library visionlib
+-- Processing library config_py
+-- Processing library comm_py
+-- Processing library depthLib
+-- Processing library jderobotHandlers
+-- Processing library logger
+version:5.4.0
+-- Processing library resourcelocator
+-- Processing library geometry
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Processing library progeo
+-- Processing library xmlParser
+-- Processing library parallelIce
+-- Processing library easyiceconfig
+-- Processing library parallelIce_py
+-- Processing library fuzzylib
+-- Processing tool replayController
+-- Processing tool visualStates
+-- Processing tool navigatorCamera
+-- Processing tool camViz_py
+-- Processing tool rgbdCalibrator
+-- Processing tool rgbdviewerjs
+-- Processing tool replayer2
+-- Processing tool carViz
+-- Processing tool colorTuner_py
+-- Processing tool camViz
+-- Processing tool rgbdManualCalibrator
+-- Processing tool uav_viewer_py
+-- Processing tool namingService
+-- Processing tool rgbdViz
+-- Processing tool cameraCalibrator
+-- Processing tool pantilt_teleop_py
+-- Processing tool uav_viewer
+-- Processing tool recorder2
+-- Processing tool giraffeClient
+-- Processing driver camserver
+-- Processing driver giraffeServer
+-- Processing driver kinect2server
+Disabled
+-- Processing driver camserver_py
+-- Processing driver MAVLinkServer
+-- Processing driver evicam_driver
+-- Processing driver ardrone_server
+-- Processing driver gazebo
+-- Processing plugin pibot
+-- Processing plugin formula1
+-- Processing plugin dummycar
+-- Processing plugin gazebo_ros_screw_plugin
+-- Boost version: 1.58.0
+-- Processing plugin pioneer
+-- Processing plugin roomba
+-- Processing plugin f1
+-- Processing plugin kinect
+-- Processing plugin solo
+-- Processing plugin holo_car
+-- Processing plugin quadrotor
+-- Processing plugin turtlebot
+-- Processing plugin taxiholoLaser
+-- Processing plugin car
+-- Processing plugin opel
+-- Processing plugin gymkhana
+-- Processing plugin flyingKinect
+-- Processing driver piCamServer_py
+-- Processing driver PiBot
+-- Processing driver pclRGBDServer
+-- Processing driver YoutubeServer
+-- Processing driver emSensorDriver
+WiringPi library is required to build emSensorDriver, skipping driver bulid.
+-- Processing driver openniServer
+-- Processing driver openni1Server
+-- Processing sample visualStates
+-- Processing sample basic_server
+-- Processing sample basic_component_py
+-- Processing sample basic_component
+-- Processing sample opencvdemo
+deps-dev
+dpkg-deb: building package 'jderobot-deps-dev' in '.dpkg_pkgs/jderobot-deps-dev_5.6.6_all.deb'.
+drivers
+dpkg-deb: building package 'jderobot-drivers' in '.dpkg_pkgs/jderobot-drivers_5.6.6_all.deb'.
+examples
+dpkg-deb: building package 'jderobot-examples' in '.dpkg_pkgs/jderobot-examples_5.6.6_all.deb'.
+libs
+dpkg-deb: building package 'jderobot-libs' in '.dpkg_pkgs/jderobot-libs_5.6.6_all.deb'.
+tools
+dpkg-deb: building package 'jderobot-tools' in '.dpkg_pkgs/jderobot-tools_5.6.6_all.deb'.
+zeroc-ice-python
+dpkg-deb: building package 'jderobot-zeroc-ice-python' in '.dpkg_pkgs/jderobot-zeroc-ice-python_5.6.6_all.deb'.
+jderobot
+dpkg-deb: building package 'jderobot' in '.dpkg_pkgs/jderobot_5.6.6_all.deb'.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jarvisjivan/JdeRobot
+jarvisjivan@jarvisjivan-HP-Laptop-15g-br1xx:~/JdeRobot$ make
+Scanning dependencies of target JderobotInterfaces_Definitions
+[  0%] Building C object src/interfaces/CMakeFiles/JderobotInterfaces_Definitions.dir/dummy.c.o
+[  0%] Linking C shared library libJderobotInterfaces_Definitions.so
+[  0%] Built target JderobotInterfaces_Definitions
+Scanning dependencies of target JderobotInterfaces
+[  0%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/genericData.cpp.o
+[  0%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/replayControl.cpp.o
+[  0%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/sonars.cpp.o
+[  0%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/bumper.cpp.o
+[  0%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/encoders.cpp.o
+[  1%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/image.cpp.o
+[  1%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/kinectleds.cpp.o
+[  1%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/ptencoders.cpp.o
+[  1%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/pointcloud.cpp.o
+[  1%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/cmdvel.cpp.o
+[  2%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/camera.cpp.o
+[  2%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/ir.cpp.o
+[  2%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/laser.cpp.o
+[  2%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/rgbd.cpp.o
+[  2%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/navdata.cpp.o
+[  3%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/control.cpp.o
+[  3%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/common.cpp.o
+[  3%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/emSensor.cpp.o
+[  3%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/exceptions.cpp.o
+[  3%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/recorder.cpp.o
+[  4%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/pose3dencoders.cpp.o
+[  4%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/remoteCloud.cpp.o
+[  4%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/visualization.cpp.o
+[  4%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/namingService.cpp.o
+[  4%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/datetime.cpp.o
+[  5%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/containers.cpp.o
+[  5%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/ardroneextra.cpp.o
+[  5%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/sonar.cpp.o
+[  5%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/motors.cpp.o
+[  5%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/primitives.cpp.o
+[  6%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/pose3dmotors.cpp.o
+[  6%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/pose3d.cpp.o
+[  6%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/jointmotor.cpp.o
+[  6%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/remoteConfig.cpp.o
+[  6%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/ptmotors.cpp.o
+[  7%] Building CXX object src/interfaces/CMakeFiles/JderobotInterfaces.dir/cpp/jderobot/jcm.cpp.o
+[  7%] Linking CXX shared library libJderobotInterfaces.so
+[  7%] Built target JderobotInterfaces
+[  7%] Built target jderobotTypes_py
+[  7%] Built target config
+[  7%] Built target config_demo
+[  8%] Built target config-embedded
+[  8%] Built target logger
+Scanning dependencies of target ns
+[  8%] Building CXX object src/libs/ns/CMakeFiles/ns.dir/ns.cpp.o
+[  8%] Linking CXX shared library libns.so
+[  8%] Built target ns
+Scanning dependencies of target jderobotutil
+[  8%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutil.dir/interfaceHandlers/CameraTask.cpp.o
+[  8%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutil.dir/interfaceHandlers/CameraHandler.cpp.o
+[  8%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutil.dir/interfaceHandlers/RGBDHandler.cpp.o
+[  9%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutil.dir/utils/CameraUtils.cpp.o
+[  9%] Linking CXX static library libjderobotutil.a
+[ 10%] Built target jderobotutil
+Scanning dependencies of target jderobotutilshare
+[ 11%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutilshare.dir/interfaceHandlers/CameraTask.cpp.o
+[ 11%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutilshare.dir/interfaceHandlers/CameraHandler.cpp.o
+[ 11%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutilshare.dir/interfaceHandlers/RGBDHandler.cpp.o
+[ 11%] Building CXX object src/libs/jderobotutil/CMakeFiles/jderobotutilshare.dir/utils/CameraUtils.cpp.o
+[ 11%] Linking CXX shared library libjderobotutil.so
+[ 11%] Built target jderobotutilshare
+[ 11%] Built target colorspacesmm
+Scanning dependencies of target comm
+[ 11%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/laserClient.cpp.o
+[ 12%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/laserIceClient.cpp.o
+[ 12%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/cameraClient.cpp.o
+[ 12%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/cameraIceClient.cpp.o
+[ 12%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/pose3dClient.cpp.o
+[ 12%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/pose3dIceClient.cpp.o
+[ 13%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/motorsClient.cpp.o
+[ 13%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/motorsIceClient.cpp.o
+[ 13%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/rgbdClient.cpp.o
+[ 13%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/rgbdIceClient.cpp.o
+[ 13%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/cmdvelClient.cpp.o
+[ 14%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/cmdvelIceClient.cpp.o
+[ 14%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ardroneextraClient.cpp.o
+[ 14%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/ardroneextraIceClient.cpp.o
+[ 14%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/navdataClient.cpp.o
+[ 14%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/navdataIceClient.cpp.o
+[ 15%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/bumperClient.cpp.o
+[ 15%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm.dir/src/ice/bumperIceClient.cpp.o
+[ 15%] Linking CXX shared library ../../../devel/lib/libcomm.so
+[ 16%] Built target comm
+Scanning dependencies of target comm-embedded
+[ 16%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/laserClient.cpp.o
+[ 16%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/laserIceClient.cpp.o
+[ 16%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/cameraClient.cpp.o
+[ 17%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/cameraIceClient.cpp.o
+[ 17%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/pose3dClient.cpp.o
+[ 17%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/pose3dIceClient.cpp.o
+[ 17%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/motorsClient.cpp.o
+[ 17%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/motorsIceClient.cpp.o
+[ 18%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/rgbdClient.cpp.o
+[ 18%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/rgbdIceClient.cpp.o
+[ 18%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/cmdvelClient.cpp.o
+[ 18%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/cmdvelIceClient.cpp.o
+[ 18%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ardroneextraClient.cpp.o
+[ 19%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/ardroneextraIceClient.cpp.o
+[ 19%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/navdataClient.cpp.o
+[ 19%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/navdataIceClient.cpp.o
+[ 19%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/bumperClient.cpp.o
+[ 19%] Building CXX object src/libs/comm_cpp/CMakeFiles/comm-embedded.dir/src/ice/bumperIceClient.cpp.o
+[ 19%] Linking CXX static library ../../../devel/lib/libcomm-embedded.a
+[ 22%] Built target comm-embedded
+[ 22%] Built target easyiceconfig_py
+[ 23%] Built target jderobotViewer
+[ 23%] Built target jderobotViewerShare
+[ 25%] Built target cvblob
+[ 26%] Built target colorspaces
+[ 27%] Built target colorspacesshare
+[ 27%] Built target cvfast
+[ 27%] Built target progeo
+[ 28%] Built target imgAnalyze
+[ 28%] Built target config_py
+[ 28%] Built target jderobotcomm_py
+[ 28%] Built target depthLib
+[ 29%] Built target depthLibshare
+Scanning dependencies of target jderobotHandlers
+[ 29%] Building CXX object src/libs/jderobotHandlers/CMakeFiles/jderobotHandlers.dir/ReplayControlerClientHDL.cpp.o
+[ 29%] Linking CXX static library libjderobotHandlers.a
+[ 29%] Built target jderobotHandlers
+Scanning dependencies of target jderobotHandlersshare
+[ 29%] Building CXX object src/libs/jderobotHandlers/CMakeFiles/jderobotHandlersshare.dir/ReplayControlerClientHDL.cpp.o
+[ 29%] Linking CXX shared library libjderobotHandlers.so
+[ 29%] Built target jderobotHandlersshare
+[ 29%] Built target resourcelocator
+[ 29%] Built target test_gladelocator
+[ 34%] Built target geometry
+[ 35%] Built target progeoshare
+[ 36%] Built target xmlParser
+[ 37%] Built target xmlParsershare
+Scanning dependencies of target parallelIce
+[ 37%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIce.dir/cameraClient.cpp.o
+[ 37%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIce.dir/pointcloudClient.cpp.o
+[ 38%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIce.dir/laserClient.cpp.o
+[ 38%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIce.dir/motorsClient.cpp.o
+[ 38%] Linking CXX static library libparallelIce.a
+[ 38%] Built target parallelIce
+Scanning dependencies of target parallelIceshare
+[ 38%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIceshare.dir/cameraClient.cpp.o
+[ 38%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIceshare.dir/pointcloudClient.cpp.o
+[ 39%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIceshare.dir/laserClient.cpp.o
+[ 39%] Building CXX object src/libs/parallelIce/CMakeFiles/parallelIceshare.dir/motorsClient.cpp.o
+[ 39%] Linking CXX shared library libparallelIce.so
+[ 39%] Built target parallelIceshare
+[ 40%] Built target test_stdutils
+[ 41%] Built target demo
+[ 42%] Built target easyiceconfig-embedded
+[ 42%] Built target easyiceconfig
+[ 42%] Built target test_loader
+[ 42%] Built target parallelIce_py
+[ 42%] Built target fuzzylib
+[ 43%] Built target fuzzyshare
+Scanning dependencies of target replayController
+[ 43%] Building CXX object src/tools/replayController/CMakeFiles/replayController.dir/replayController.cpp.o
+[ 43%] Building CXX object src/tools/replayController/CMakeFiles/replayController.dir/replayControllerGui.cpp.o
+[ 43%] Linking CXX executable replayController
+[ 43%] Built target replayController
+[ 43%] Linking CXX shared library libvisualStatesRunTime.so
+[ 44%] Built target visualStatesRunTime
+Scanning dependencies of target navigatorCamera
+[ 44%] Building CXX object src/tools/navigatorCamera/CMakeFiles/navigatorCamera.dir/navigatorCamera.cpp.o
+[ 45%] Building CXX object src/tools/navigatorCamera/CMakeFiles/navigatorCamera.dir/gui.cpp.o
+[ 45%] Building CXX object src/tools/navigatorCamera/CMakeFiles/navigatorCamera.dir/sharer.cpp.o
+[ 45%] Linking CXX executable navigatorCamera
+[ 45%] Built target navigatorCamera
+Scanning dependencies of target rgbdCalibrator
+[ 45%] Building CXX object src/tools/rgbdCalibrator/CMakeFiles/rgbdCalibrator.dir/rgbdCalibrator.cpp.o
+[ 46%] Building CXX object src/tools/rgbdCalibrator/CMakeFiles/rgbdCalibrator.dir/viewer.cpp.o
+[ 46%] Building CXX object src/tools/rgbdCalibrator/CMakeFiles/rgbdCalibrator.dir/calibration.cpp.o
+[ 46%] Building CXX object src/tools/rgbdCalibrator/CMakeFiles/rgbdCalibrator.dir/geoUtils.cpp.o
+[ 46%] Linking CXX executable rgbdCalibrator
+[ 46%] Built target rgbdCalibrator
+Scanning dependencies of target replayer2
+[ 47%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/replayer.cpp.o
+[ 47%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/replayergui.cpp.o
+[ 47%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/utils/SyncController.cpp.o
+[ 47%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/interfaces/ReplayerCamera.cpp.o
+[ 48%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/interfaces/ReplayerPointCloud.cpp.o
+[ 48%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/interfaces/ReplayerLaser.cpp.o
+[ 48%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/interfaces/ReplayerPose3DEncoders.cpp.o
+[ 48%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/interfaces/ReplayerPose3D.cpp.o
+[ 48%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/interfaces/ReplayerEncoders.cpp.o
+[ 49%] Building CXX object src/tools/replayer2/CMakeFiles/replayer2.dir/utils/ReplayControllerInterface.cpp.o
+[ 49%] Linking CXX executable replayer2
+[ 49%] Built target replayer2
+[ 49%] Automatic moc for target carViz
+[ 49%] Built target carViz_automoc
+Scanning dependencies of target carViz
+[ 50%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/main.cpp.o
+[ 50%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/robot/actuators.cpp.o
+[ 50%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/robot/robot.cpp.o
+[ 50%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/robot/sensors.cpp.o
+[ 50%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/gui/gui.cpp.o
+[ 51%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/gui/threadupdategui.cpp.o
+[ 51%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/gui/widget/cameraswidget.cpp.o
+[ 51%] Building CXX object src/tools/carViz/CMakeFiles/carViz.dir/carViz_automoc.cpp.o
+[ 52%] Linking CXX executable carViz
+[ 52%] Built target carViz
+Scanning dependencies of target camViz
+[ 52%] Building CXX object src/tools/camViz/CMakeFiles/camViz.dir/camViz.cpp.o
+[ 52%] Building CXX object src/tools/camViz/CMakeFiles/camViz.dir/viewer.cpp.o
+[ 52%] Linking CXX executable camViz
+[ 52%] Built target camViz
+Scanning dependencies of target rgbdManualCalibrator
+[ 52%] Building CXX object src/tools/rgbdManualCalibrator/CMakeFiles/rgbdManualCalibrator.dir/controller.cpp.o
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp: In member function ‘void rgbdManualCalibrator::Controller::init(Ice::PropertiesPtr, int)’:
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:185:3: warning: ‘TPinHoleCamera xmlReader(TPinHoleCamera*, const char*)’ is deprecated [-Wdeprecated-declarations]
+   xmlReader(&(this->cameras[cam]), camera.c_str());
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:98:28: note: declared here
+  DEPRECATED(TPinHoleCamera xmlReader(TPinHoleCamera* camera, const char *filena
+                            ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:185:3: warning: ‘TPinHoleCamera xmlReader(TPinHoleCamera*, const char*)’ is deprecated [-Wdeprecated-declarations]
+   xmlReader(&(this->cameras[cam]), camera.c_str());
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:98:28: note: declared here
+  DEPRECATED(TPinHoleCamera xmlReader(TPinHoleCamera* camera, const char *filena
+                            ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:185:50: warning: ‘TPinHoleCamera xmlReader(TPinHoleCamera*, const char*)’ is deprecated [-Wdeprecated-declarations]
+   xmlReader(&(this->cameras[cam]), camera.c_str());
+                                                  ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:98:28: note: declared here
+  DEPRECATED(TPinHoleCamera xmlReader(TPinHoleCamera* camera, const char *filena
+                            ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:193:3: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->cameras[cam]));
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:193:3: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->cameras[cam]));
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:193:45: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->cameras[cam]));
+                                             ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp: In member function ‘void rgbdManualCalibrator::Controller::drawWorld(cv::Mat, int)’:
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:217:5: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+     update_camera_matrix(&(this->cameras[cam]));
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:217:5: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+     update_camera_matrix(&(this->cameras[cam]));
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:217:47: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+     update_camera_matrix(&(this->cameras[cam]));
+                                               ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp: In member function ‘void rgbdManualCalibrator::Controller::drawLine(cv::Mat, HPoint3D, HPoint3D, int)’:
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:251:5: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pini,&p1,this->cameras[cam]);
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:251:5: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pini,&p1,this->cameras[cam]);
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:251:40: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pini,&p1,this->cameras[cam]);
+                                        ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:252:5: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pend,&p2,this->cameras[cam]);
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:252:5: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pend,&p2,this->cameras[cam]);
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:252:40: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pend,&p2,this->cameras[cam]);
+                                        ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:254:8: warning: ‘int displayline(HPoint2D, HPoint2D, HPoint2D*, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     if(displayline(p1,p2,&gooda,&goodb,this->cameras[cam])==1) {
+        ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:105:17: note: declared here
+  DEPRECATED(int displayline(HPoint2D p1, HPoint2D p2, HPoint2D *a, HPoint2D *b,
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:254:8: warning: ‘int displayline(HPoint2D, HPoint2D, HPoint2D*, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     if(displayline(p1,p2,&gooda,&goodb,this->cameras[cam])==1) {
+        ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:105:17: note: declared here
+  DEPRECATED(int displayline(HPoint2D p1, HPoint2D p2, HPoint2D *a, HPoint2D *b,
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:254:58: warning: ‘int displayline(HPoint2D, HPoint2D, HPoint2D*, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     if(displayline(p1,p2,&gooda,&goodb,this->cameras[cam])==1) {
+                                                          ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:105:17: note: declared here
+  DEPRECATED(int displayline(HPoint2D p1, HPoint2D p2, HPoint2D *a, HPoint2D *b,
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp: In member function ‘int rgbdManualCalibrator::Controller::load_camera_config(Ice::PropertyDict, int)’:
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:323:3: warning: no return statement in function returning non-void [-Wreturn-type]
+   }
+   ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp: In member function ‘void rgbdManualCalibrator::Controller::add_depth_pointsImage(cv::Mat, cv::Mat, rgbdManualCalibrator::DrawArea*, int, int, int)’:
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:409:6: warning: ‘int backproject(HPoint3D*, HPoint2D, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+      backproject(&pro,p,this->cameras[cam]);
+      ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:104:17: note: declared here
+  DEPRECATED(int backproject(HPoint3D *out, HPoint2D in, TPinHoleCamera camera))
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:409:6: warning: ‘int backproject(HPoint3D*, HPoint2D, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+      backproject(&pro,p,this->cameras[cam]);
+      ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:104:17: note: declared here
+  DEPRECATED(int backproject(HPoint3D *out, HPoint2D in, TPinHoleCamera camera))
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:409:43: warning: ‘int backproject(HPoint3D*, HPoint2D, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+      backproject(&pro,p,this->cameras[cam]);
+                                           ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:104:17: note: declared here
+  DEPRECATED(int backproject(HPoint3D *out, HPoint2D in, TPinHoleCamera camera))
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp: In member function ‘int rgbdManualCalibrator::Controller::load_world()’:
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:514:3: warning: no return statement in function returning non-void [-Wreturn-type]
+   } 
+   ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp: In member function ‘void rgbdManualCalibrator::Controller::saveCameras(int)’:
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:522:4: warning: ‘void xmlWriter(TPinHoleCamera, const char*)’ is deprecated [-Wdeprecated-declarations]
+    xmlWriter(cameras[i],sTemp.str().c_str());
+    ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:99:18: note: declared here
+  DEPRECATED(void xmlWriter(TPinHoleCamera camera, const char *filename));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:522:4: warning: ‘void xmlWriter(TPinHoleCamera, const char*)’ is deprecated [-Wdeprecated-declarations]
+    xmlWriter(cameras[i],sTemp.str().c_str());
+    ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:99:18: note: declared here
+  DEPRECATED(void xmlWriter(TPinHoleCamera camera, const char *filename));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:522:44: warning: ‘void xmlWriter(TPinHoleCamera, const char*)’ is deprecated [-Wdeprecated-declarations]
+    xmlWriter(cameras[i],sTemp.str().c_str());
+                                            ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.h:31:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/rgbdManualCalibrator/controller.cpp:25:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:99:18: note: declared here
+  DEPRECATED(void xmlWriter(TPinHoleCamera camera, const char *filename));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+[ 53%] Building CXX object src/tools/rgbdManualCalibrator/CMakeFiles/rgbdManualCalibrator.dir/drawarea.cpp.o
+[ 53%] Building CXX object src/tools/rgbdManualCalibrator/CMakeFiles/rgbdManualCalibrator.dir/rgbdManualCalibrator.cpp.o
+[ 53%] Building CXX object src/tools/rgbdManualCalibrator/CMakeFiles/rgbdManualCalibrator.dir/view.cpp.o
+[ 53%] Linking CXX executable rgbdManualCalibrator
+[ 53%] Built target rgbdManualCalibrator
+Scanning dependencies of target namingService
+[ 53%] Building CXX object src/tools/namingService/CMakeFiles/namingService.dir/namingServiceApp.cpp.o
+[ 53%] Building CXX object src/tools/namingService/CMakeFiles/namingService.dir/NamingServiceJdeRobot.cpp.o
+[ 53%] Linking CXX executable namingService
+[ 53%] Built target namingService
+Scanning dependencies of target rgbdViz
+[ 53%] Building CXX object src/tools/rgbdViz/CMakeFiles/rgbdViz.dir/rgbdViz.cpp.o
+[ 54%] Building CXX object src/tools/rgbdViz/CMakeFiles/rgbdViz.dir/drawarea.cpp.o
+[ 54%] Building CXX object src/tools/rgbdViz/CMakeFiles/rgbdViz.dir/rgbdVizgui.cpp.o
+[ 54%] Linking CXX executable rgbdViz
+[ 54%] Built target rgbdViz
+Scanning dependencies of target cameraCalibrator
+[ 54%] Building CXX object src/tools/cameraCalibrator/CMakeFiles/cameraCalibrator.dir/cameraCalibrator.cpp.o
+[ 55%] Linking CXX executable cameraCalibrator
+[ 55%] Built target cameraCalibrator
+[ 55%] Automatic moc for target uav_viewer
+[ 55%] Built target uav_viewer_automoc
+Scanning dependencies of target uav_viewer
+[ 55%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/sensors/threadsensors.cpp.o
+[ 55%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/gui/threadgui.cpp.o
+[ 55%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/gui/mainwindow.cpp.o
+[ 55%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/gui/velwidget.cpp.o
+[ 56%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/gui/datawidget.cpp.o
+[ 56%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/src/main.cpp.o
+[ 56%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/sensors/sensors.cpp.o
+[ 56%] Building CXX object src/tools/uav_viewer/CMakeFiles/uav_viewer.dir/uav_viewer_automoc.cpp.o
+[ 57%] Linking CXX executable uav_viewer
+[ 57%] Built target uav_viewer
+Scanning dependencies of target recorder2
+[ 57%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/recorder2.cpp.o
+[ 57%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/recordergui.cpp.o
+[ 58%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/PoolWriteImages.cpp.o
+[ 58%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/poolWritePose3dEncoders.cpp.o
+[ 58%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/poolWriteLasers.cpp.o
+[ 58%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/poolWritePointCloud.cpp.o
+[ 58%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/poolWriteEncoders.cpp.o
+[ 59%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/poolWritePose3d.cpp.o
+[ 59%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/buffer/RecorderInterface.cpp.o
+[ 59%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/PoolWriteRGBD.cpp.o
+[ 59%] Building CXX object src/tools/recorder2/CMakeFiles/recorder2.dir/pools/RecorderRGBD.cpp.o
+[ 59%] Linking CXX executable recorder2
+[ 61%] Built target recorder2
+Scanning dependencies of target giraffeClient
+[ 62%] Building CXX object src/tools/giraffeClient/CMakeFiles/giraffeClient.dir/giraffeClient.cpp.o
+[ 62%] Building CXX object src/tools/giraffeClient/CMakeFiles/giraffeClient.dir/controller.cpp.o
+[ 62%] Building CXX object src/tools/giraffeClient/CMakeFiles/giraffeClient.dir/view.cpp.o
+[ 62%] Building CXX object src/tools/giraffeClient/CMakeFiles/giraffeClient.dir/cameraconf.cpp.o
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp: In constructor ‘giraffeClient::CameraConf::CameraConf(RoboCompJointMotor::JointMotorPrx)’:
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:50:3: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->camera));
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:50:3: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->camera));
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:50:39: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->camera));
+                                       ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp: In member function ‘void giraffeClient::CameraConf::calcCameraPos()’:
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:218:3: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->camera)); 
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:218:3: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->camera)); 
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:218:39: warning: ‘void update_camera_matrix(TPinHoleCamera*)’ is deprecated [-Wdeprecated-declarations]
+   update_camera_matrix(&(this->camera)); 
+                                       ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:100:18: note: declared here
+  DEPRECATED(void update_camera_matrix(TPinHoleCamera *camera));
+                  ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp: In member function ‘void giraffeClient::CameraConf::drawLine(IplImage*, HPoint3D, HPoint3D)’:
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:254:3: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+   project(pini,&p1,this->camera);
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:254:3: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+   project(pini,&p1,this->camera);
+   ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:254:32: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+   project(pini,&p1,this->camera);
+                                ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:255:5: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pend,&p2,this->camera);
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:255:5: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pend,&p2,this->camera);
+     ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:255:34: warning: ‘int project(HPoint3D, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+     project(pend,&p2,this->camera);
+                                  ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:103:17: note: declared here
+  DEPRECATED(int project(HPoint3D in, HPoint2D *out, TPinHoleCamera camera));
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:257:6: warning: ‘int displayline(HPoint2D, HPoint2D, HPoint2D*, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+   if(displayline(p1,p2,&gooda,&goodb,this->camera)==1) {
+      ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:105:17: note: declared here
+  DEPRECATED(int displayline(HPoint2D p1, HPoint2D p2, HPoint2D *a, HPoint2D *b,
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:257:6: warning: ‘int displayline(HPoint2D, HPoint2D, HPoint2D*, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+   if(displayline(p1,p2,&gooda,&goodb,this->camera)==1) {
+      ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:105:17: note: declared here
+  DEPRECATED(int displayline(HPoint2D p1, HPoint2D p2, HPoint2D *a, HPoint2D *b,
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+/home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:257:50: warning: ‘int displayline(HPoint2D, HPoint2D, HPoint2D*, HPoint2D*, TPinHoleCamera)’ is deprecated [-Wdeprecated-declarations]
+   if(displayline(p1,p2,&gooda,&goodb,this->camera)==1) {
+                                                  ^
+In file included from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/tools/giraffeClient/cameraconf.cpp:23:
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:105:17: note: declared here
+  DEPRECATED(int displayline(HPoint2D p1, HPoint2D p2, HPoint2D *a, HPoint2D *b,
+                 ^
+/home/jarvisjivan/JdeRobot/src/libs/progeo/progeo.h:27:26: note: in definition of macro ‘DEPRECATED’
+ #define DEPRECATED(func) func __attribute__ ((deprecated))
+                          ^
+[ 62%] Linking CXX executable giraffeClient
+[ 62%] Built target giraffeClient
+Scanning dependencies of target camserver
+[ 62%] Building CXX object src/drivers/camserver/CMakeFiles/camserver.dir/camserver.cpp.o
+[ 63%] Linking CXX executable camserver
+[ 63%] Built target camserver
+Scanning dependencies of target evicam_driver
+[ 63%] Building CXX object src/drivers/evicam_driver/CMakeFiles/evicam_driver.dir/src/evicam_driver.cpp.o
+[ 63%] Building CXX object src/drivers/evicam_driver/CMakeFiles/evicam_driver.dir/src/interfaces/pantilti.cpp.o
+[ 63%] Linking CXX executable evicam_driver
+[ 64%] Built target evicam_driver
+Scanning dependencies of target testpt
+[ 64%] Building CXX object src/drivers/evicam_driver/CMakeFiles/testpt.dir/src/test.cpp.o
+[ 64%] Linking CXX executable testpt
+[ 64%] Built target testpt
+Scanning dependencies of target ardrone_server_msgs
+[ 65%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server_msgs.dir/include-slice/navdatagps.cpp.o
+[ 65%] Linking CXX static library libardrone_server_msgs.a
+[ 65%] Built target ardrone_server_msgs
+Scanning dependencies of target ardrone_print_gps_data
+[ 65%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_print_gps_data.dir/test/print_gps_data.cpp.o
+[ 67%] Linking CXX executable ardrone_print_gps_data
+[ 67%] Built target ardrone_print_gps_data
+Scanning dependencies of target ardrone_server
+[ 67%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/ardrone_driver.cpp.o
+[ 67%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/ardrone_sdk.cpp.o
+[ 67%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/teleop_twist.cpp.o
+[ 68%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/include/ardrone_server/interfaces/cameraserver.cpp.o
+[ 68%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/interfaces/cmdveli.cpp.o
+[ 68%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/interfaces/pose3di.cpp.o
+[ 68%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/interfaces/remoteconfigi.cpp.o
+[ 68%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/interfaces/navdatai.cpp.o
+[ 69%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/interfaces/ardroneextrai.cpp.o
+[ 69%] Building CXX object src/drivers/ardrone_server/CMakeFiles/ardrone_server.dir/src/interfaces/navdatagpsi.cpp.o
+[ 69%] Linking CXX executable ardrone_server
+[ 69%] Built target ardrone_server
+Scanning dependencies of target sonarMBOT
+[ 69%] Building CXX object src/drivers/gazebo/plugins/pibot/CMakeFiles/sonarMBOT.dir/sonar.cc.o
+[ 70%] Linking CXX shared library libsonarMBOT.so
+[ 70%] Built target sonarMBOT
+Scanning dependencies of target pose3dMBOT
+[ 70%] Building CXX object src/drivers/gazebo/plugins/pibot/CMakeFiles/pose3dMBOT.dir/pose3d.cc.o
+[ 70%] Linking CXX shared library libpose3dMBOT.so
+[ 70%] Built target pose3dMBOT
+Scanning dependencies of target motorsMBOT
+[ 70%] Building CXX object src/drivers/gazebo/plugins/pibot/CMakeFiles/motorsMBOT.dir/motors.cc.o
+[ 71%] Linking CXX shared library libmotorsMBOT.so
+[ 71%] Built target motorsMBOT
+Scanning dependencies of target camera_dumpMBOT
+[ 72%] Building CXX object src/drivers/gazebo/plugins/pibot/CMakeFiles/camera_dumpMBOT.dir/camera_dump.cc.o
+[ 72%] Linking CXX shared library libcamera_dumpMBOT.so
+[ 72%] Built target camera_dumpMBOT
+Scanning dependencies of target irMBOT
+[ 72%] Building CXX object src/drivers/gazebo/plugins/pibot/CMakeFiles/irMBOT.dir/ir.cc.o
+[ 73%] Linking CXX shared library libirMBOT.so
+[ 73%] Built target irMBOT
+[ 73%] Built target formula1_headers
+Scanning dependencies of target formula1plugin
+[ 74%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/formula1plugin.cc.o
+[ 74%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/formula1ice.cc.o
+[ 75%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/interfaces/motorsi.cpp.o
+[ 75%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/interfaces/laseri.cpp.o
+[ 75%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/interfaces/pose3di.cpp.o
+[ 75%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/interfaces/camerai.cpp.o
+[ 75%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/interfaces/pushcamerai.cpp.o
+[ 76%] Building CXX object src/drivers/gazebo/plugins/formula1/CMakeFiles/formula1plugin.dir/src/interfaces/cameraibase.cpp.o
+[ 76%] Linking CXX shared library libformula1plugin.so
+[ 76%] Built target formula1plugin
+[ 76%] Built target carplugin
+[ 76%] Built target gazebo_ros_screw_plugin
+Scanning dependencies of target camera_dump
+[ 76%] Building CXX object src/drivers/gazebo/plugins/pioneer/CMakeFiles/camera_dump.dir/camera_dump.cc.o
+[ 76%] Linking CXX shared library libcamera_dump.so
+[ 76%] Built target camera_dump
+Scanning dependencies of target pose3d_pioneer
+[ 76%] Building CXX object src/drivers/gazebo/plugins/pioneer/CMakeFiles/pose3d_pioneer.dir/pose3d.cc.o
+[ 77%] Linking CXX shared library libpose3d_pioneer.so
+[ 77%] Built target pose3d_pioneer
+Scanning dependencies of target laser
+[ 77%] Building CXX object src/drivers/gazebo/plugins/pioneer/CMakeFiles/laser.dir/laser.cc.o
+[ 77%] Linking CXX shared library liblaser.so
+[ 77%] Built target laser
+Scanning dependencies of target pose3dencoders
+[ 77%] Building CXX object src/drivers/gazebo/plugins/pioneer/CMakeFiles/pose3dencoders.dir/pose3dencoders.cc.o
+[ 77%] Linking CXX shared library libpose3dencoders.so
+[ 77%] Built target pose3dencoders
+Scanning dependencies of target motors
+[ 78%] Building CXX object src/drivers/gazebo/plugins/pioneer/CMakeFiles/motors.dir/motors.cc.o
+[ 78%] Linking CXX shared library libmotors.so
+[ 78%] Built target motors
+[ 78%] Built target roomba_headers
+Scanning dependencies of target roombaplugin
+[ 79%] Building CXX object src/drivers/gazebo/plugins/roomba/CMakeFiles/roombaplugin.dir/src/roombaplugin.cc.o
+[ 79%] Building CXX object src/drivers/gazebo/plugins/roomba/CMakeFiles/roombaplugin.dir/src/roombaice.cc.o
+[ 79%] Building CXX object src/drivers/gazebo/plugins/roomba/CMakeFiles/roombaplugin.dir/src/interfaces/motorsi.cpp.o
+[ 80%] Building CXX object src/drivers/gazebo/plugins/roomba/CMakeFiles/roombaplugin.dir/src/interfaces/laseri.cpp.o
+[ 80%] Building CXX object src/drivers/gazebo/plugins/roomba/CMakeFiles/roombaplugin.dir/src/interfaces/pose3di.cpp.o
+[ 80%] Building CXX object src/drivers/gazebo/plugins/roomba/CMakeFiles/roombaplugin.dir/src/interfaces/bumperi.cpp.o
+[ 80%] Linking CXX shared library libroombaplugin.so
+[ 80%] Built target roombaplugin
+Scanning dependencies of target camera_dumpF1
+[ 80%] Building CXX object src/drivers/gazebo/plugins/f1/CMakeFiles/camera_dumpF1.dir/camera_dump.cc.o
+[ 80%] Linking CXX shared library libcamera_dumpF1.so
+[ 80%] Built target camera_dumpF1
+Scanning dependencies of target motorsF1
+[ 80%] Building CXX object src/drivers/gazebo/plugins/f1/CMakeFiles/motorsF1.dir/motors.cc.o
+[ 80%] Linking CXX shared library libmotorsF1.so
+[ 80%] Built target motorsF1
+Scanning dependencies of target pose3dF1
+[ 81%] Building CXX object src/drivers/gazebo/plugins/f1/CMakeFiles/pose3dF1.dir/pose3d.cc.o
+[ 81%] Linking CXX shared library libpose3dF1.so
+[ 81%] Built target pose3dF1
+Scanning dependencies of target laserF1
+[ 81%] Building CXX object src/drivers/gazebo/plugins/f1/CMakeFiles/laserF1.dir/laser.cc.o
+[ 82%] Linking CXX shared library liblaserF1.so
+[ 82%] Built target laserF1
+Scanning dependencies of target kinectPlugin
+[ 83%] Building CXX object src/drivers/gazebo/plugins/kinect/CMakeFiles/kinectPlugin.dir/kinectPlugin.cc.o
+In file included from /home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/kinect/kinectPlugin.h:29:0,
+                 from /home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/kinect/kinectPlugin.cc:18:
+/usr/include/pcl-1.7/pcl/visualization/cloud_viewer.h:202:14: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<CloudViewer_impl> impl_;
+              ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from /usr/include/sdformat-4.4/sdf/Console.hh:25,
+                 from /usr/include/sdformat-4.4/sdf/sdf.hh:3,
+                 from /usr/include/gazebo-7/gazebo/common/Plugin.hh:42,
+                 from /home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/kinect/kinectPlugin.h:23,
+                 from /home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/kinect/kinectPlugin.cc:18:
+/usr/include/c++/5/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^
+[ 83%] Linking CXX shared library libkinectPlugin.so
+[ 83%] Built target kinectPlugin
+Scanning dependencies of target holoCarMotors
+[ 83%] Building CXX object src/drivers/gazebo/plugins/holo_car/CMakeFiles/holoCarMotors.dir/holoCarMotors.cc.o
+[ 83%] Linking CXX shared library libholoCarMotors.so
+[ 83%] Built target holoCarMotors
+Scanning dependencies of target holoCarPose3D
+[ 83%] Building CXX object src/drivers/gazebo/plugins/holo_car/CMakeFiles/holoCarPose3D.dir/holoCarPose3d.cc.o
+[ 83%] Linking CXX shared library libholoCarPose3D.so
+[ 83%] Built target holoCarPose3D
+[ 83%] Built target quadrotor2_headers
+Scanning dependencies of target quadrotorplugin2
+[ 83%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/quadrotorplugin.cc.o
+[ 83%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/quadrotorice.cc.o
+[ 84%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/interfaces/pose3di.cpp.o
+[ 84%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/interfaces/navdatai.cpp.o
+[ 84%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/interfaces/dronecontroli.cpp.o
+[ 84%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/interfaces/cmdveli.cpp.o
+[ 84%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/interfaces/camerai.cpp.o
+[ 85%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/interfaces/pushcamerai.cpp.o
+[ 85%] Building CXX object src/drivers/gazebo/plugins/quadrotor/CMakeFiles/quadrotorplugin2.dir/src/interfaces/cameraibase.cpp.o
+[ 85%] Linking CXX shared library libquadrotorplugin2.so
+[ 86%] Built target quadrotorplugin2
+[ 86%] Built target turtlebot_headers
+Scanning dependencies of target turtlebotplugin
+[ 87%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/turtlebotplugin.cc.o
+[ 87%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/turtlebotice.cc.o
+[ 87%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/interfaces/motorsi.cpp.o
+[ 88%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/interfaces/laseri.cpp.o
+[ 88%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/interfaces/pose3di.cpp.o
+[ 88%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/interfaces/camerai.cpp.o
+[ 88%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/interfaces/bumperi.cpp.o
+[ 88%] Building CXX object src/drivers/gazebo/plugins/turtlebot/CMakeFiles/turtlebotplugin.dir/src/interfaces/cameraibase.cpp.o
+[ 89%] Linking CXX shared library libturtlebotplugin.so
+[ 89%] Built target turtlebotplugin
+Scanning dependencies of target lasertaxi
+[ 89%] Building CXX object src/drivers/gazebo/plugins/taxiholoLaser/CMakeFiles/lasertaxi.dir/laser.cc.o
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/taxiholoLaser/laser.cc: In function ‘void* mainLaser(void*)’:
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/taxiholoLaser/laser.cc:165:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+[ 89%] Linking CXX shared library liblasertaxi.so
+[ 89%] Built target lasertaxi
+Scanning dependencies of target carMotors
+[ 89%] Building CXX object src/drivers/gazebo/plugins/car/CMakeFiles/carMotors.dir/carMotors.cc.o
+[ 89%] Linking CXX shared library libcarMotors.so
+[ 89%] Built target carMotors
+Scanning dependencies of target carPose3D
+[ 89%] Building CXX object src/drivers/gazebo/plugins/car/CMakeFiles/carPose3D.dir/pose3d.cc.o
+[ 89%] Linking CXX shared library libcarPose3D.so
+[ 89%] Built target carPose3D
+Scanning dependencies of target camera_dumpopel
+[ 89%] Building CXX object src/drivers/gazebo/plugins/opel/CMakeFiles/camera_dumpopel.dir/camera_dump.cc.o
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/camera_dump.cc: In member function ‘virtual std::__cxx11::string CameraI::startCameraStreaming(const Ice::Current&)’:
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/camera_dump.cc:150:3: warning: no return statement in function returning non-void [-Wreturn-type]
+   }
+   ^
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/camera_dump.cc: In function ‘void* myMain(void*)’:
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/camera_dump.cc:306:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+[ 89%] Linking CXX shared library libcamera_dumpopel.so
+[ 89%] Built target camera_dumpopel
+Scanning dependencies of target opelPose3D
+[ 89%] Building CXX object src/drivers/gazebo/plugins/opel/CMakeFiles/opelPose3D.dir/pose3d.cc.o
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/pose3d.cc: In function ‘void* gazebo::Pose3DICE(void*)’:
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/pose3d.cc:152:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+[ 89%] Linking CXX shared library libopelPose3D.so
+[ 89%] Built target opelPose3D
+Scanning dependencies of target opelMotors
+[ 90%] Building CXX object src/drivers/gazebo/plugins/opel/CMakeFiles/opelMotors.dir/opelMotors.cc.o
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/opelMotors.cc: In member function ‘void gazebo::Motors::OnUpdate()’:
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/opelMotors.cc:66:15: warning: unused variable ‘z’ [-Wunused-variable]
+         float z = model->GetRelativeLinearVel().z;
+               ^
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/opelMotors.cc: In function ‘void* gazebo::motorsICE(void*)’:
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/opel/opelMotors.cc:175:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+[ 90%] Linking CXX shared library libopelMotors.so
+[ 90%] Built target opelMotors
+[ 90%] Built target wall3plugin
+[ 91%] Built target wall2plugin
+[ 91%] Built target wall1plugin
+[ 91%] Built target wall4plugin
+Scanning dependencies of target gazebo_kinectplugin
+[ 91%] Building CXX object src/drivers/gazebo/plugins/flyingKinect/CMakeFiles/gazebo_kinectplugin.dir/src/kinect.cc.o
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/flyingKinect/src/kinect.cc: In member function ‘void kinect::KinectPlugin::LoadSensors(gazebo::physics::ModelPtr)’:
+/home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/flyingKinect/src/kinect.cc:129:41: warning: ISO C++ says that these are ambiguous, even though the worst conversion for the first is better than the worst conversion for the second:
+  this->base_link_id = _model->GetChild(0)->GetId();
+                                         ^
+In file included from /usr/include/gazebo-7/gazebo/physics/Entity.hh:41:0,
+                 from /usr/include/gazebo-7/gazebo/physics/Model.hh:34,
+                 from /home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/flyingKinect/src/../include/kinect/kinect.hh:23,
+                 from /home/jarvisjivan/JdeRobot/src/drivers/gazebo/plugins/flyingKinect/src/kinect.cc:20:
+/usr/include/gazebo-7/gazebo/physics/Base.hh:246:23: note: candidate 1: gazebo::physics::BasePtr gazebo::physics::Base::GetChild(unsigned int) const
+       public: BasePtr GetChild(unsigned int _i) const;
+                       ^
+/usr/include/gazebo-7/gazebo/physics/Base.hh:251:23: note: candidate 2: gazebo::physics::BasePtr gazebo::physics::Base::GetChild(const string&)
+       public: BasePtr GetChild(const std::string &_name);
+                       ^
+[ 91%] Building CXX object src/drivers/gazebo/plugins/flyingKinect/CMakeFiles/gazebo_kinectplugin.dir/src/interfaces/camerai.cpp.o
+[ 92%] Building CXX object src/drivers/gazebo/plugins/flyingKinect/CMakeFiles/gazebo_kinectplugin.dir/src/interfaces/pushcamerai.cpp.o
+[ 92%] Building CXX object src/drivers/gazebo/plugins/flyingKinect/CMakeFiles/gazebo_kinectplugin.dir/src/interfaces/cameraibase.cpp.o
+[ 92%] Linking CXX shared library libgazebo_kinectplugin.so
+[ 92%] Built target gazebo_kinectplugin
+Scanning dependencies of target pclRGBDServer
+[ 92%] Building CXX object src/drivers/pclRGBDServer/CMakeFiles/pclRGBDServer.dir/kinectServer.cpp.o
+In file included from /home/jarvisjivan/JdeRobot/src/drivers/pclRGBDServer/kinectServer.cpp:20:0:
+/usr/include/pcl-1.7/pcl/visualization/cloud_viewer.h:202:14: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<CloudViewer_impl> impl_;
+              ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from /usr/include/boost/function/function_base.hpp:16,
+                 from /usr/include/boost/function/detail/prologue.hpp:17,
+                 from /usr/include/boost/function.hpp:24,
+                 from /usr/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /usr/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /usr/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /usr/include/boost/algorithm/string/split.hpp:16,
+                 from /home/jarvisjivan/JdeRobot/src/libs/easyiceconfig/include/easyiceconfig/stdutils.hpp:39,
+                 from /home/jarvisjivan/JdeRobot/src/libs/easyiceconfig/include/easyiceconfig/loader.hpp:25,
+                 from /home/jarvisjivan/JdeRobot/src/libs/easyiceconfig/include/easyiceconfig/initializer.hpp:24,
+                 from /home/jarvisjivan/JdeRobot/src/libs/easyiceconfig/include/easyiceconfig/EasyIce.h:33,
+                 from /home/jarvisjivan/JdeRobot/src/drivers/pclRGBDServer/kinectServer.cpp:7:
+/usr/include/c++/5/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^
+[ 92%] Linking CXX executable pclRGBDServer
+[ 92%] Built target pclRGBDServer
+Scanning dependencies of target openniServer
+[ 92%] Building CXX object src/drivers/openniServer/CMakeFiles/openniServer.dir/openniServer.cpp.o
+c++: warning: ./: linker input file unused because linking not done
+[ 92%] Building CXX object src/drivers/openniServer/CMakeFiles/openniServer.dir/OpenNiServerLib/RGBCamera.cpp.o
+c++: warning: ./: linker input file unused because linking not done
+[ 92%] Building CXX object src/drivers/openniServer/CMakeFiles/openniServer.dir/OpenNiServerLib/DepthCamera.cpp.o
+c++: warning: ./: linker input file unused because linking not done
+[ 93%] Building CXX object src/drivers/openniServer/CMakeFiles/openniServer.dir/OpenNiServerLib/PointCloudServer.cpp.o
+c++: warning: ./: linker input file unused because linking not done
+[ 93%] Building CXX object src/drivers/openniServer/CMakeFiles/openniServer.dir/OpenNiServerLib/RGBDServer.cpp.o
+c++: warning: ./: linker input file unused because linking not done
+[ 93%] Linking CXX executable openniServer
+[ 94%] Built target openniServer
+Scanning dependencies of target openni1Server
+[ 94%] Building CXX object src/drivers/openni1Server/CMakeFiles/openni1Server.dir/openni1Server.cpp.o
+In file included from /home/jarvisjivan/JdeRobot/src/drivers/openni1Server/openni1Server.cpp:41:0:
+/usr/include/ni/XnCppWrapper.h:7056:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:7057:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:7059:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:7074:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:7075:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:7077:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:7466:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:7467:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:7469:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:7484:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:7485:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:7487:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:9511:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:9512:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:9514:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:9520:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:9521:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:9523:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:9531:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:9532:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:9534:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:9546:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:9547:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:9549:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+    #pragma warning (pop)
+ ^
+/usr/include/ni/XnCppWrapper.h:9556:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+     #pragma warning (push)
+ ^
+/usr/include/ni/XnCppWrapper.h:9557:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+     #pragma warning (disable: XN_DEPRECATED_WARNING_IDS)
+ ^
+/usr/include/ni/XnCppWrapper.h:9559:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+     #pragma warning (pop)
+ ^
+In file included from /home/jarvisjivan/JdeRobot/src/drivers/openni1Server/openni1Server.cpp:41:0:
+/usr/include/ni/XnCppWrapper.h: In constructor ‘xn::OutputMetaData::OutputMetaData(const XnUInt8**)’:
+/usr/include/ni/XnCppWrapper.h:376:12: warning: ‘xn::OutputMetaData::m_nAllocatedSize’ will be initialized after [-Wreorder]
+   XnUInt32 m_nAllocatedSize;
+            ^
+/usr/include/ni/XnCppWrapper.h:370:12: warning:   ‘XnUInt8* xn::OutputMetaData::m_pAllocatedData’ [-Wreorder]
+   XnUInt8* m_pAllocatedData;
+            ^
+/usr/include/ni/XnCppWrapper.h:206:10: warning:   when initialized here [-Wreorder]
+   inline OutputMetaData(const XnUInt8** ppData) : m_ppData(ppData), m_nAllocate
+          ^
+/usr/include/ni/XnCppWrapper.h: In constructor ‘xn::Query::Query(XnNodeQuery*)’:
+/usr/include/ni/XnCppWrapper.h:2133:10: warning: ‘xn::Query::m_bAllocated’ will be initialized after [-Wreorder]
+   XnBool m_bAllocated;
+          ^
+/usr/include/ni/XnCppWrapper.h:2132:16: warning:   ‘XnNodeQuery* xn::Query::m_pQuery’ [-Wreorder]
+   XnNodeQuery* m_pQuery;
+                ^
+/usr/include/ni/XnCppWrapper.h:1984:10: warning:   when initialized here [-Wreorder]
+   inline Query(XnNodeQuery* pNodeQuery) : m_bAllocated(FALSE), m_pQuery(pNodeQu
+          ^
+In file included from /home/jarvisjivan/JdeRobot/src/drivers/openni1Server/openni1Server.cpp:41:0:
+/usr/include/ni/XnCppWrapper.h: In constructor ‘xn::EnumerationErrors::EnumerationErrors()’:
+/usr/include/ni/XnCppWrapper.h:8551:10: warning: ‘xn::EnumerationErrors::m_bAllocated’ will be initialized after [-Wreorder]
+   XnBool m_bAllocated;
+          ^
+/usr/include/ni/XnCppWrapper.h:8550:24: warning:   ‘XnEnumerationErrors* xn::EnumerationErrors::m_pErrors’ [-Wreorder]
+   XnEnumerationErrors* m_pErrors;
+                        ^
+/usr/include/ni/XnCppWrapper.h:8412:10: warning:   when initialized here [-Wreorder]
+   inline EnumerationErrors() : m_bAllocated(TRUE), m_pErrors(NULL) { xnEnumerat
+          ^
+/usr/include/ni/XnCppWrapper.h: In constructor ‘xn::EnumerationErrors::EnumerationErrors(XnEnumerationErrors*, XnBool)’:
+/usr/include/ni/XnCppWrapper.h:8551:10: warning: ‘xn::EnumerationErrors::m_bAllocated’ will be initialized after [-Wreorder]
+   XnBool m_bAllocated;
+          ^
+/usr/include/ni/XnCppWrapper.h:8550:24: warning:   ‘XnEnumerationErrors* xn::EnumerationErrors::m_pErrors’ [-Wreorder]
+   XnEnumerationErrors* m_pErrors;
+                        ^
+/usr/include/ni/XnCppWrapper.h:8421:10: warning:   when initialized here [-Wreorder]
+   inline EnumerationErrors(XnEnumerationErrors* pErrors, XnBool bOwn = FALSE) :
+          ^
+[ 94%] Linking CXX executable openni1Server
+[ 94%] Built target openni1Server
+Scanning dependencies of target basic_server
+[ 94%] Building CXX object src/examples/basic_server/CMakeFiles/basic_server.dir/basic_server.cpp.o
+[ 94%] Building CXX object src/examples/basic_server/CMakeFiles/basic_server.dir/myInterface.cpp.o
+[ 95%] Linking CXX executable basic_server
+[ 95%] Built target basic_server
+Scanning dependencies of target basic_component
+[ 95%] Building CXX object src/examples/basic_component/CMakeFiles/basic_component.dir/basic_component.cpp.o
+[ 95%] Building CXX object src/examples/basic_component/CMakeFiles/basic_component.dir/gui/gui.cpp.o
+[ 95%] Building CXX object src/examples/basic_component/CMakeFiles/basic_component.dir/gui/threadupdategui.cpp.o
+[ 96%] Building CXX object src/examples/basic_component/CMakeFiles/basic_component.dir/gui/widget/cameraswidget.cpp.o
+[ 96%] Building CXX object src/examples/basic_component/CMakeFiles/basic_component.dir/gui/moc_gui.cpp.o
+[ 97%] Building CXX object src/examples/basic_component/CMakeFiles/basic_component.dir/gui/widget/moc_cameraswidget.cpp.o
+[ 97%] Linking CXX executable basic_component
+[ 98%] Built target basic_component
+Scanning dependencies of target opencvdemo
+[ 98%] Building CXX object src/examples/opencvdemo/CMakeFiles/opencvdemo.dir/opencvdemo.cpp.o
+[ 98%] Building CXX object src/examples/opencvdemo/CMakeFiles/opencvdemo.dir/viewer.cpp.o
+[100%] Linking CXX executable opencvdemo
+[100%] Built target opencvdemo
+jarvisjivan@jarvisjivan-HP-Laptop-15g-br1xx:~/JdeRobot$ 
